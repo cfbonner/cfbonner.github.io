@@ -1,20 +1,24 @@
 <template>
-  <div>
+  <div class='font-mono text-gray-100 bg-gray-900 min-h-screen'>
+    <header class='p-6'>
+      <p class='text-xs text-gray-100'>Colin Bonner</p>
+      <Navigation />
+    </header>
     <Nuxt />
   </div>
 </template>
 
+<script>
+import Navigation from '../components/Navigation'
+export default {
+  components: {
+    Navigation
+  }
+}
+</script>
+
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
