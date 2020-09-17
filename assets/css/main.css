@@ -1,21 +1,21 @@
-.page-enter-active,
-.page-leave-active {
-  transition: transform 0.5s;
-}
+/* .page-enter-active, */
+/* .page-leave-active { */
+/*   transition: transform 0.5s; */
+/* } */
 
-.page-enter-active {
-  transform: translateX(0);
-}
+/* .page-enter-active { */
+/*   transform: translateX(0); */
+/* } */
 
-.page-leave-active {
-  transform: translateX(0);
-  transition: transform 1s;
-}
+/* .page-leave-active { */
+/*   transform: translateX(0); */
+/*   transition: transform 1s; */
+/* } */
 
-.page-enter {
-  transform: translateX(-100%);
-}
+/* .page-enter { */
+/*   transform: translateX(-100%); */
+/* } */
 
-.page-leave-to {
-  transform: translateX(200%);
-}
+/* .page-leave-to { */
+/*   transform: translateX(200%); */
+/* } */
