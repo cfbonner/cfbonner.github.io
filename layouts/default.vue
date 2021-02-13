@@ -1,20 +1,25 @@
 <template>
-  <div class='font-mono text-gray-100 bg-gray-900 min-h-screen'>
-    <header class='p-6'>
-      <p class='text-xs text-gray-100'>Colin Bonner</p>
-      <Navigation />
+  <div
+    class="px-4 py-8 md:px-32 md:py-16 text-gray-100 min-h-screen"
+    style="background-color: #1a1a1a;"
+  >
+    <header>
+      <p class="text-xs md:text-lg text-gray-100">Colin Bonner</p>
+      <div class="mb-4 md:mb-8">
+        <Navigation />
+      </div>
     </header>
     <Nuxt />
   </div>
 </template>
 
 <script>
-import Navigation from '../components/Navigation'
+import Navigation from "../components/Navigation";
 export default {
   components: {
-    Navigation
-  }
-}
+    Navigation,
+  },
+};
 </script>
 
 <style>

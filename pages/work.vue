@@ -1,5 +1,5 @@
 <template>
-  <main class='p-6'>
+  <main>
     <h1 class='sr-only'>Work</h1>
     <section class='space-y-8' style='max-width: 75ch;'>
       <ListingEntry
@@ -33,7 +33,7 @@ export default {
           id: 2,
           title: 'Flourish Festival',
           subtitle: 'Ruby on Rails, Javascript, Design',
-          meta_description: 'This is a site for a grass roots Canadian music/arts festival. It has slickr custom ActiveAdmin powered CMS that always the organizers to create different interations of the festival, accept applications, create artists from those applications, and add them to a event and schedule builder. Under the cute exterior theres some pretty powerful stuff, actually.',
+          meta_description: 'This is a site for a grass roots Canadian music/arts festival. It uses an ActiveAdmin powered CMS that the organizers use to manage different interations of the festival, accept applications, create artists from those applications, and add them to a event and schedule builder. Under the cute exterior there\'s some pretty powerful stuff going on.',
           link_text: 'flourish-fest.com',
           url: 'https://www.flourish-fest.com',
           published: true
@@ -45,6 +45,15 @@ export default {
           meta_description: 'This is a music player app that lets you sift through and play from collections of tunes. I used my old band\'s music as a way for us to host our records on our own terms. I\'m hoping to integrate this into a full fledged music app eventually.',
           link_text: 'lucylucylucy.netlify.app',
           url: 'https://lucylucylucy.netlify.app',
+          published: true
+        },
+        {
+          id: 7,
+          title: 'Lofter',
+          subtitle: 'Elixir, Phoenix',
+          meta_description: 'There\'s free pitch-and-putt golf course near my house in Edinburgh. I made this LiveView application so that I could track the scores of my fellow Brunstfield Links golfers.',
+          link_text: 'lofter.herokuapp.com',
+          url: 'https://lofter.herokuapp.com',
           published: true
         },
         {

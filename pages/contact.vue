@@ -1,5 +1,5 @@
 <template>
-  <main class='p-6'>
+  <main>
     <section>
       <ul>
         <li v-for='(url, service) in links'>

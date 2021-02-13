@@ -1,7 +1,7 @@
 <template>
-  <main class='p-6'>
-    <section class='text-xs space-y-3' style='max-width: 75ch;'>
-      <p class='text-base font-bold'>
+  <main>
+    <section class='text-base space-y-3 md:space-y-4 md:text-xl' style='max-width: 65ch;'>
+      <p class='font-bold'>
       Hi there.
       </p>
       <p>
@@ -14,13 +14,13 @@
       I get excited about normal web things, like intuitive experiences, blistering fast performance, accessibility, high ranking SEO. Normal web things.
       </p>
       <p>
-      I also get excited about strange web things like latent design, VIM macros, easter-eggs, keyboard shortcuts, and experimental browser API's.
+      I also get excited about strange web things like latent design, useful VIM macros, easter-eggs, keyboard shortcuts, and experimental browser API's.
       </p>
       <p>
-      In terms of technologies I use in production, I rely on:
+      The technology I most often rely on includes but is not limited to:
       </p>
-      <ul>
-        <li v-for="skill in skills" class="list-disc pl-3 ml-3">
+      <ul class="ml-4 space-y-1">
+        <li v-for="skill in skills" class="list-disc">
           {{ skill }}
         </li>
       </ul>
