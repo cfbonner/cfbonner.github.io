@@ -1,7 +1,7 @@
 <template>
   <main>
     <section>
-      <ul>
+      <ul class="md:text-xl">
         <li v-for='(url, service) in links'>
           <strong>{{ service }}</strong>: {{ url }}
         </li>

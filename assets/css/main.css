@@ -19,3 +19,12 @@
 /* .page-leave-to { */
 /*   transform: translateX(200%); */
 /* } */
+
+.nuxt-content p a {
+  @apply text-yellow-500;
+}
+
+.nuxt-content ul li {
+  @apply ml-8 list-disc;
+}
+

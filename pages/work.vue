@@ -1,7 +1,7 @@
 <template>
   <main>
     <h1 class="sr-only">Work</h1>
-    <section class="space-y-8" style="max-width: 75ch;">
+    <section class="space-y-8 md:space-y-16" style="max-width: 75ch;">
       <ListingEntry
         v-for="entry in entries"
         v-bind:entry="entry"
@@ -18,7 +18,7 @@ export default {
     ListingEntry,
   },
   async asyncData({ $content }) {
-    const entries = await $content("work").fetch();
+    const entries = await $content("work").where({published: true}).sortBy('position').fetch();
 
     return {
       entries,
