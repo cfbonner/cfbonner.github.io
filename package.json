@@ -11,6 +11,7 @@
     "deploy": "push-dir --dir=dist --branch=dist --cleanup"
   },
   "dependencies": {
+    "@nuxt/content": "^1.13.1",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {

@@ -54,7 +54,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxt/content'
   ],
+  content: {
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
