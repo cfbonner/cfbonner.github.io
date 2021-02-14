@@ -8,7 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=dist --cleanup"
+    "deploy": "nuxt build && nuxt generate && push-dir --dir=dist --branch=dist --force"
   },
   "dependencies": {
     "@nuxt/content": "^1.13.1",
